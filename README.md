@@ -1,4 +1,4 @@
-30vs60fps.com
+30vs60fps
 =============
 
-Can you tell the difference?
+A barebones version

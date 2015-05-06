@@ -3,7 +3,7 @@
 
 var app = {
     timestampStart: null,
-    fps: 30,       
+    fps: 60,       
     
     start: function() {         
         app.timestampStart = new Date().getTime();

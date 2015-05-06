@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>    
+    <title>30 FPS vs. 60 FPS Real game comparison</title>    
+    <meta name="keywords" content="30fps,60ps,fps,frames,per,second,frames per
+scond,30 vs 60,xbox,playstation,pc,pc master race" />
+    <link href="style.css" rel="stylesheet" type="text/css" />    
+    <script
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>    
+        <script src="script.js"></script>
+</head>
+<body class="stretch">
+        
+    <div id="preloader">
+        <h1>30fps vs 60fps comparison</h1>   
+            <h4>
+                What you are about to see is a player<br/>
+                turning around 360&deg; every second, either in 30fps or
+60fps.<br/>
+                Can you tell the difference?
+            </h4>            
+            <div id="preloader-inner">
+                <p>Please stand by, loading... (3.4 MB to download)</p>
+                <p id="preloader-anim">|</p>
+            </div>        
+        <p>
+            Compatible browsers: Firefox, Chrome, Safari, IE9+.<br/>
+            (Stretching doesn't work on &lt; IE9 version)
+            <br>
+            <br><br>
+            Originally by: <a href="mailto:30vs60fps@exqstudio.com">30vs60fps@exqstudio.com</a>
+            <a href="https://github.com/exqstudio/30vs60fps.com"
+title="30vs60fps.com on Github"><img src="img/btn_github.png" alt="Github icon"
+/></a>             
+        </p>        
+    </div>
+    
+        <div id="frame-rate" style="display:none"></div>
+
+        <div id="controls" style="display:none">
+            <button id="fps-toggle">Switch to 30 FPS</button><br/>
+            <button id="stretching-toggle">Turn stretching off</button>    
+
+            <div id="fps-warning" style="display:none"><strong>WARNING:</strong> 
+                Your browser is not able to display at desired minimum frame
+rate, therefore results might not be accurate.<br/>
+                For the script to perform accurately, please do not move your
+mouse cursor and keep screen stretching disabled.
+            </div>
+        </div>
+   
+        <div id="preloader-images">        
+            <div class="fps30 f1"></div>
+            <div class="fps30 f2"></div>
+            <div class="fps30 f3"></div>
+            <div class="fps30 f4"></div>
+            <div class="fps30 f5"></div>
+            <div class="fps30 f6"></div>
+            <div class="fps30 f7"></div>
+            <div class="fps30 f8"></div>
+            <div class="fps30 f9"></div>
+            <div class="fps30 f10"></div>
+            <div class="fps30 f11"></div>
+            <div class="fps30 f12"></div>
+            <div class="fps30 f13"></div>
+            <div class="fps30 f14"></div>
+            <div class="fps30 f15"></div>
+            <div class="fps30 f16"></div>
+            <div class="fps30 f17"></div>
+            <div class="fps30 f18"></div>
+            <div class="fps30 f19"></div>
+            <div class="fps30 f20"></div>
+            <div class="fps30 f21"></div>
+            <div class="fps30 f22"></div>
+            <div class="fps30 f23"></div>
+            <div class="fps30 f24"></div>
+            <div class="fps30 f25"></div>
+            <div class="fps30 f26"></div>
+            <div class="fps30 f27"></div>
+            <div class="fps30 f28"></div>
+            <div class="fps30 f29"></div>
+            <div class="fps30 f30"></div>
+            <div class="fps60 f1"></div>
+            <div class="fps60 f2"></div>
+            <div class="fps60 f3"></div>
+            <div class="fps60 f4"></div>
+            <div class="fps60 f5"></div>
+            <div class="fps60 f6"></div>
+            <div class="fps60 f7"></div>
+            <div class="fps60 f8"></div>
+            <div class="fps60 f9"></div>
+            <div class="fps60 f10"></div>
+            <div class="fps60 f11"></div>
+            <div class="fps60 f12"></div>
+            <div class="fps60 f13"></div>
+            <div class="fps60 f14"></div>
+            <div class="fps60 f15"></div>
+            <div class="fps60 f16"></div>
+            <div class="fps60 f17"></div>
+            <div class="fps60 f18"></div>
+            <div class="fps60 f19"></div>
+            <div class="fps60 f20"></div>
+            <div class="fps60 f21"></div>
+            <div class="fps60 f22"></div>
+            <div class="fps60 f23"></div>
+            <div class="fps60 f24"></div>
+            <div class="fps60 f25"></div>
+            <div class="fps60 f26"></div>
+            <div class="fps60 f27"></div>
+            <div class="fps60 f28"></div>
+            <div class="fps60 f29"></div>
+            <div class="fps60 f30"></div>
+            <div class="fps60 f31"></div>
+            <div class="fps60 f32"></div>
+            <div class="fps60 f33"></div>
+            <div class="fps60 f34"></div>
+            <div class="fps60 f35"></div>
+            <div class="fps60 f36"></div>
+            <div class="fps60 f37"></div>
+            <div class="fps60 f38"></div>
+            <div class="fps60 f39"></div>
+            <div class="fps60 f40"></div>
+            <div class="fps60 f41"></div>
+            <div class="fps60 f42"></div>
+            <div class="fps60 f43"></div>
+            <div class="fps60 f44"></div>
+            <div class="fps60 f45"></div>
+            <div class="fps60 f46"></div>
+            <div class="fps60 f47"></div>
+            <div class="fps60 f48"></div>
+            <div class="fps60 f49"></div>
+            <div class="fps60 f50"></div>
+            <div class="fps60 f51"></div>
+            <div class="fps60 f52"></div>
+            <div class="fps60 f53"></div>
+            <div class="fps60 f54"></div>
+            <div class="fps60 f55"></div>
+            <div class="fps60 f56"></div>
+            <div class="fps60 f57"></div>
+            <div class="fps60 f58"></div>
+            <div class="fps60 f59"></div>
+            <div class="fps60 f60"></div>
+        </div>    
+</body>
+</html>
